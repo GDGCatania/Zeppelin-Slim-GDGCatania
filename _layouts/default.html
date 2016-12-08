@@ -7,7 +7,7 @@ layout: compress
 
 {% include head.html %}
 
-<body>
+<body ng-app="myApp"> <!-- Tkd-Alex -->
     <div id="preloader" class="preloader">
         <div class="loader-gplus"></div>
     </div>
@@ -16,7 +16,7 @@ layout: compress
         <div class="st-pusher">
             <div class="st-content">
 
-                {{ content }} 
+                {{ content }}
 
                 {% include footer.html %}
 
@@ -24,20 +24,25 @@ layout: compress
         </div>
     </div>
 
-    {% if page.modal != null %} 
-    	{% include speakers-modals.html %} 
-    {% endif %} 
+    {% if page.modal != null %}
+    	{% include speakers-modals.html %}
+    {% endif %}
 
     {% if page.permalink == '/schedule/' %}
-        {% include sessions-modals.html %} 
-    {% endif %} 
+        {% include sessions-modals.html %}
+    {% endif %}
 
     {% include analytics.html %}
-    
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script>
         window.jQuery || document.write('<script src="{{ "/js/jquery-2.1.1.min.js" | prepend: site.baseurl }}><\/script>')
     </script>
+
+    <!-- Tkd-Alex -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.0-rc.2/angular.min.js"></script>
+    <script src="{{ "/js/custom/app.js" | prepend: site.baseurl }}"></script>
+
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script>
     if (typeof($.fn.modal) === 'undefined') {
@@ -49,14 +54,14 @@ layout: compress
     <script>
         if ($(window).width() > 767) {
             document.write('<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"><\/script>')
-        } 
+        }
     </script>
     {% elsif page.permalink == '/logistics/' %}
         <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places,geometry"></script>
         <script type="text/javascript">
             var autoDirectionEnabled = {% if site.logisticsMapAutoDirections %} true {% else %} false {% endif %};
         </script>
-    {% endif %} 
+    {% endif %}
     <script>
         Waves.displayEffect();
         {% if page.permalink == '/' %}
@@ -81,7 +86,7 @@ layout: compress
                             strings: [{{site.typeoutTextValues}}],
                             typeSpeed: 150,
                             backDelay: 900,
-                            loop: false
+                            loop: true
                         });
                     }
                 });
@@ -127,8 +132,8 @@ layout: compress
                 mobileCenterMapCoordinates = '{{ site.hackathonMapMobileCenterCoordinates | replace:' ','' }}',
                 icon = '{{ site.baseurl | prepend: site.url }}/img/other/map-marker.png';
             }
-            
-        {% endif %} 
+
+        {% endif %}
     </script>
     <script src="{{ "/js/scripts.min.js" | prepend: site.baseurl }}"></script>
     {% if page.permalink == '/schedule/' %}
