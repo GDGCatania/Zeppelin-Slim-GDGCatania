@@ -10,9 +10,9 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 
 
 # Site Settings
-title: "GDG DevFest Season 2014"
-email: "devfest@gdg.org.ua"
-description: "GDG DevFest is a set of events all around the world"
+title: "Google Developer Group Catania"
+email: "main@gdgcatania.org"
+description: "GDG Catania community"
 baseurl: "/zeppelin"
 url: "https://gdg-x.github.io"
 permalink: "/blog/:title"
@@ -21,16 +21,16 @@ googleAnalyticsSiteUrl: "gdg-x.github.io"
 siteVerification: "b9imDOrFawXaBXCC4r3uJDdswSYcalD-wWpMYhFq-no"
 
 # Organizer Info
-organizerName: "GDG Lviv"
-organizerAlternateName: "Google Developer Group Lviv"
-organizerDescription: "Open and volunteer geek communities who create exciting projects and share experience about Google technology with passion."
-organizerEmail: "lviv@gdg.org.ua"
-organizerLogo: "/img/seo/organizer-logo.png"
-organizerLink: "http://lviv.gdg.org.ua/"
+organizerName: "Google Developer Group Catania"
+organizerAlternateName: "Google Developer Group Catania"
+organizerDescription: "Community aperta e volontaria che crea progetti e condivide le esperienze sulla tecnologia di Google con passione"
+organizerEmail: "main@gdgcatania.org"
+organizerLogo: "/img/seo/gdg-catania-logo.png"
+organizerLink: "http://gdgcatania.org/"
 
 # Head
-metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, lviv"
-twitterAccount: "@DevFest"
+metaKeywords: "event, gdg, devfest, google, programming, android, chrome, developers, Catania"
+twitterAccount: "@gdgcatania"
 socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
 socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
 socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
@@ -56,37 +56,35 @@ rightNavigationButtons:
 
 # Hero Block
 heroImage: "hero.jpg"
-heroTitle: "GDG DevFest <typeout> 2014"
-eventDate: "September - November, 2014"
-typeoutTextValues: '"", "Season", "Ukraine", "Germany", "USA"'
+heroTitle: "<typeout>"
+eventDate: "Catania"
+typeoutTextValues: '"", "Google Developer Group"'
 typeoutFallback: "Season"
 heroButtons:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
  - {permalink: "/#tickets", text: "Buy tickets"}
 
 # About Block
-aboutTitle: "About GDG DevFest"
+aboutTitle: "Cosa si fa in un GDG?"
 aboutBlock:
- - {title: "Conference", image: "conference.jpg", text: "The biggest Google related event in the country carefully crafted for you by GDG community! Awesome speakers and lots of fun!" }
- - {title: "Workshops", image: "workshop.jpg", text: "Full-day of workshops, hands-on experience, hacking and debugging. Come and tame your favourite technology!" }
- - {title: "Hackathon", image: "hackathon.jpg", text: "Full-day freestyle hackathon! Want some real team building on friday? Grab your team and join our hackathon!" }
+ - {title: "Networking", image: "networking.jpg", text: "Si comunica sia durante gli eventi, ma non solo, sulle tecnologie e metodologie Google." }
+ - {title: "Learning", image: "workshop.jpg", text: "I GDG nascono con lo scopo di aumentare il livello delle competenze di sviluppatori e designer in merito alle tecnologie e metodologie Google." }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "350", specialCharacter: "+", info: "attendees", detail: "from everywhere"}
- - {count: "48", specialCharacter: "+", info: "hours", detail: "of pure Google technologies"}
- - {count: "20", specialCharacter: "+", info: "speakers", detail: "from country and beyond"}
- - {count: "3", specialCharacter: "", info: "parallel tracks", detail: "plus entertainment lounge"}
+ - {count: "1133", specialCharacter: "+", info: "Partecipanti", detail: "da tutta la Sicilia"}
+ - {count: "350", specialCharacter: "+", info: "Membri", detail: " attivi negli ultimi 6 mesi "}
+ - {count: "22", specialCharacter: "+", info: "Eventi", detail: "organizzati negli ultimi 6 mesi"}
 
 # Latest News Block
-latestNewsTitle: "Latest news"
+latestNewsTitle: "Cos'è un Google Developer Group?"
 
-# Rockstar Speakers Block
+# StaffGDG
 rockstarSpeakersImage: "rockstar-speakers.jpg"
-rockstarSpeakersCount: 4
-rockstarSpeakersTitle: "Rockstar speakers"
-rockstarSpeakersButtonText: "See all speakers"
+rockstarSpeakersCount: 3
+rockstarSpeakersTitle: "Main GDG Catania"
+rockstarSpeakersButtonText: ""
 
 # Location Block
 locationBlockTitle: "Location"
@@ -104,20 +102,18 @@ eventPlaceCoordinates: "49.843237, 24.028751"
 mapCenterCoordinates: "49.842537, 24.025701"
 mapMobileCenterCoordinates: "49.841620, 24.029411"
 
-# Venue Block
-venueBlockTitle: "Venue"
+# Foto Block
+venueBlockTitle: "Foto"
 venueBigImage: "venue_0.jpg"
 venueSmallImage1: "venue_1.jpg"
 venueSmallImage2: "venue_2.jpg"
 venueSmallImage3: "venue_3.jpg"
-venueTitle: "Kinopalace Cinema"
-venueFeatures: ["3 huge cinema screens", "Doulby Digital Surround EX audio system", "Located directly in the city center"]
-
+venueSmallImage4: "venue_4.jpg"
 # Tweets Feed Block
 tweetsFeedImage: "twitter-feed.jpg"
 tweetsFeedTitle: "What's Up?"
 twitterHashTag: "devfest"
-twitterFeed: "http://lviv.gdg.org.ua/tweetledee/favoritesjson.php?c=10&cache_interval=8000"
+twitterFeed: "http://www.google.it"
 
 # Partners Block
 organizersTitle: "Organizers"
@@ -126,9 +122,9 @@ partnersC4sponsorsButton: "Become a sponsor"
 
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
-subscribeTitle: "Subscribe for updates"
+subscribeTitle: "Iscriviti per restare aggiornato!"
 subscribeAction: "https://gdg.us5.list-manage1.com/subscribe/post?u=9fc8aa205b0521b5f05fc8e1e&amp;id=ae0fb459fc"
-subscribeInfo: "Registration will be open around end of August. Number of tickets are limited. Stay tuned!"
+subscribeInfo: "Join us!"
 
 # Tickets Block
 ticketsTitle: "Pricetable"
@@ -174,20 +170,20 @@ ticketsOffers:
 
 # Footer
 socialLinks:
- - {link: "https://plus.google.com/b/102444623953913144164", icon: "google-plus"}
- - {link: "https://twitter.com/intent/user?screen_name=GDGLviv", icon: "twitter"}
- - {link: "https://facebook.com/GDGLviv", icon: "facebook"}
+ - {link: "https://plus.google.com/118102220008611585984", icon: "google-plus"}
+ - {link: "https://twitter.com/gdgcatania", icon: "twitter"}
+ - {link: "https://facebook.com/gdgcatania/", icon: "facebook"}
  - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "http://gdg.org.ua", text: "GDG.org.ua"}
+   - {link: "https://developers.google.com/groups/chapter/118102220008611585984/", text: "GDG Catania"}  
    - {link: "https://developers.google.com", text: "Google Developers"}
  -
-  title: "Contacts"
+  title: "Contatti"
   links:
-   - {link: "mailto:lviv@gdg.org.ua", text: "lviv@gdg.org.ua"}
+   - {link: "mailto:main@gdgcatania.org", text: "main@gdgcatania.org"}
  -
   title: "FAQ"
   links:
