@@ -1,23 +1,29 @@
 - 
-  group: "General sponsor"
+  group: "Friends"
   elements: 
-    - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
-    - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
-- 
-  group: "With support of"
-  elements: 
-    - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg", width: "120px"}
-    - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg", width: "120px"}
-    - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "https://github.com/gdg-x", imageUrl: "gdg-x.svg", width: "120px"}
-- 
-  group: "Information partners"
-  elements: 
-    - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
-    - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
-    - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "https://github.com/gdg-x", imageUrl: "gdg-x.svg"}
-    - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
-    - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
-    - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "https://github.com/gdg-x", imageUrl: "gdg-x.svg"}
-    - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg"}
-    - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
-    - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "https://github.com/gdg-x", imageUrl: "gdg-x.svg"}
+    - {name: "Beentouch", description: "Beentouch", link: "#", imageUrl: "Beentouch.png", width: "120px"}
+    - {name: "Beepry", description: "Beepry", link: "#", imageUrl: "Beepry.png", width: "120px"}
+    - {name: "BehaviourLabs", description: "BehaviourLabs", link: "#", imageUrl: "BehaviourLabs.jpg", width: "120px"}
+    - {name: "YHC", description: "YHC", link: "#", imageUrl: "YHC.png", width: "120px"}
+    - {name: "BycareLab", description: "BycareLab", link: "#", imageUrl: "BycareLab.jpg", width: "120px"}
+    - {name: "CataniaJS", description: "CataniaJS", link: "#", imageUrl: "CataniaJS.png", width: "120px"}
+    - {name: "clic", description: "clic", link: "#", imageUrl: "clic.gif", width: "120px"}
+    - {name: "CoderDojo", description: "CoderDojo", link: "#", imageUrl: "CoderDojo.jpg", width: "120px"}
+    - {name: "elisatoscano", description: "elisatoscano", link: "#", imageUrl: "elisatoscano.png", width: "120px"}
+    - {name: "Fileshute", description: "Fileshute", link: "#", imageUrl: "Fileshute.png", width: "120px"}
+    - {name: "HackSpace", description: "HackSpace", link: "#", imageUrl: "HackSpace.jpeg", width: "120px"}
+    - {name: "LiveUnict", description: "LiveUnict", link: "#", imageUrl: "LiveUnict.jpg", width: "120px"}
+    - {name: "logoH5T", description: "logoH5T", link: "#", imageUrl: "logoH5T.png", width: "120px"}
+    - {name: "MakumoNet", description: "MakumoNet", link: "#", imageUrl: "MakumoNet.png", width: "120px"}
+    - {name: "MicrosoftMSP", description: "MicrosoftMSP", link: "#", imageUrl: "MicrosoftMSP.jpeg", width: "120px"}
+    - {name: "Paradigma", description: "Paradigma", link: "#", imageUrl: "Paradigma.png", width: "120px"}
+    - {name: "Parksmart", description: "Parksmart", link: "#", imageUrl: "Parksmart.png", width: "120px"}
+    - {name: "P&D", description: "P&D", link: "#", imageUrl: "P&D.png", width: "120px"}
+    - {name: "Reclog", description: "Reclog", link: "#", imageUrl: "Reclog.png", width: "120px"}
+    - {name: "Scirocco", description: "Scirocco", link: "#", imageUrl: "Scirocco.jpg", width: "120px"}
+    - {name: "SiciliaJournal", description: "SiciliaJournal", link: "#", imageUrl: "SiciliaJournal.jpg", width: "120px"}
+    - {name: "SSSchool", description: "SSSchool", link: "#", imageUrl: "SSSchool.png", width: "120px"}
+    - {name: "TIMWCAP", description: "TIMWCAP", link: "#", imageUrl: "TIMWCAP.png", width: "120px"}
+    - {name: "Vulcanic", description: "Vulcanic", link: "#", imageUrl: "Vulcanic.png", width: "120px"}
+    - {name: "Webbyou", description: "Webbyou", link: "#", imageUrl: "Webbyou.png", width: "120px"}
+    - {name: "BigData4You", description: "BigData4You", link: "#", imageUrl: "BigData4You.png", width: "75px"}

@@ -59,7 +59,7 @@ heroImage: "hero.jpg"
 heroTitle: "<typeout>"
 eventDate: "Catania"
 typeoutTextValues: '"", "Google Developer Group"'
-typeoutFallback: "Season"
+typeoutFallback: "Google Developer Group"
 heroButtons:
  - {link: "https://bit.ly/dfua-c4p", text: "Become a speaker"}
  - {permalink: "/#tickets", text: "Buy tickets"}
