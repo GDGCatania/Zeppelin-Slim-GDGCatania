@@ -1,12 +1,12 @@
 <!-- Begin Hero Section -->
 <section id="top-section-hero" class="top-section-hero top-section image-section" style="background-image: url('{{ site.baseurl }}/img/sections-background/{{ site.heroImage }}');">
     {% include navigation.html %}
-    <div class="content-wrapper">
+    <div class="content-wrapper" id="networkParticles">
         <div class="jumbotron">
             <div class="animated hiding" data-animation="fadeInDown" data-delay="500">
                 {% assign heroText = site.heroTitle | split:"<typeout>" %}
                 <h1>{{ heroText[0] }}<span id="typeout-text" class="hidden-xs"></span><span class="typeout-fallback">{{ site.typeoutFallback }}</span>{{ heroText[1] }}</h1>
-                <p>{{ site.eventDate }}</p>
+                <h4>{{ site.eventDate }}</h4>
             </div>
         </div>
         <a href="#latest-news" class="explore">
@@ -17,3 +17,9 @@
     </div>
 </section>
 <!-- End Hero Section -->
+
+<script type="text/javascript">
+  particlesJS.load('networkParticles', '{{ site.baseurl }}/js/custom/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+  });
+</script>
