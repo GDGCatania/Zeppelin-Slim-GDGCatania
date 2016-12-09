@@ -170,10 +170,9 @@ ticketsOffers:
 
 # Footer
 socialLinks:
+ - {link: "https://facebook.com/gdgcatania/", icon: "facebook"}
  - {link: "https://plus.google.com/118102220008611585984", icon: "google-plus"}
  - {link: "https://twitter.com/gdgcatania", icon: "twitter"}
- - {link: "https://facebook.com/gdgcatania/", icon: "facebook"}
- - {permalink: "/feed.xml", icon: "rss"}
 footerBlocks:
  -
   title: "Links"
@@ -184,10 +183,6 @@ footerBlocks:
   title: "Contatti"
   links:
    - {link: "mailto:main@gdgcatania.org", text: "main@gdgcatania.org"}
- -
-  title: "FAQ"
-  links:
-   - {permalink: "/cod/", text: "Code of Conduct"}
 
 # Blog
 blogTitle: "Latest news"
