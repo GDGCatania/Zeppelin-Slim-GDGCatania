@@ -14,30 +14,19 @@
 @import "partials/navigation";
 
 // Sections
-@import "partials/hero";
+@import "partials/hero"; //1. Home
 @import "partials/top-section";
-@import "partials/about";
-@import "partials/statistic";
-@import "partials/latest-news";
-@import "partials/rockstar-speakers";
-@import "partials/tickets";
-@import "partials/tickets-2";
-@import "partials/location-map";
-@import "partials/venue";
-@import "partials/twitter-feed";
-@import "partials/partners";
-@import "partials/subscribe";
-@import "partials/footer";
-@import "partials/blog";
+@import "partials/about"; //4. Cosa si fa?
+@import "partials/statistic"; //3. Statistiche
+@import "partials/latest-news"; //2. Info GDG
+@import "partials/rockstar-speakers"; //5. GDG Main //8. Follow us
+@import "partials/venue"; //7. Foto
+@import "partials/partners"; //9. Partners
+@import "partials/subscribe"; //10. Subscrive
+@import "partials/footer"; //11. Footer
 @import "partials/find-way";
-@import "partials/direction-details";
-@import "partials/team";
 @import "partials/zoe-effect";
 @import "partials/lily-effect";
 @import "partials/ribbon";
 @import "partials/modal";
-@import "partials/schedule";
-@import "partials/about-hackathon";
-@import "partials/judges";
-@import "partials/prizes";
-@import "partials/hackathon-location";
+@import "partials/events"; //6. Eventi
