@@ -75,7 +75,7 @@ statisticBlockImage: "statistic.jpg"
 statisticBlock:
  - {count: "1133", specialCharacter: "+", info: "Partecipanti", detail: "da tutta la Sicilia"}
  - {count: "350", specialCharacter: "+", info: "Membri", detail: " attivi negli ultimi 6 mesi "}
- - {count: "22", specialCharacter: "+", info: "Eventi", detail: "organizzati negli ultimi 6 mesi"}
+ - {count: "25", specialCharacter: "+", info: "Eventi", detail: "organizzati negli ultimi 6 mesi"}
 
 # Latest News Block
 latestNewsTitle: "Cos'è un Google Developer Group?"
