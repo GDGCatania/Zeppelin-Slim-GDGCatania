@@ -63,7 +63,7 @@ statisticBlockImage: "statistic.jpg"
 statisticBlock:
  - {count: "1133", specialCharacter: "+", info: "Partecipanti", detail: "da tutta la Sicilia"}
  - {count: "350", specialCharacter: "+", info: "Membri", detail: " attivi negli ultimi 6 mesi "}
- - {count: "22", specialCharacter: "+", info: "Eventi", detail: "organizzati negli ultimi 6 mesi"}
+ - {count: "25", specialCharacter: "+", info: "Eventi", detail: "organizzati negli ultimi 6 mesi"}
 
 # Latest News Block
 latestNewsTitle: "Cos'è un Google Developer Group?"
@@ -104,6 +104,7 @@ footerBlocks:
   links:
    - {link: "https://developers.google.com/groups/chapter/118102220008611585984/", text: "GDG Catania"}
    - {link: "https://developers.google.com", text: "Google Developers"}
+   - {link: "https://www.womentechmakers.com/", text: "Women Techmakers"}
  -
   title: "Contatti"
   links:
