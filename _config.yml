@@ -109,6 +109,7 @@ footerBlocks:
   title: "Contatti"
   links:
    - {link: "mailto:main@gdgcatania.org", text: "main@gdgcatania.org"}
+   - {link: "postmaster@gdgcatania.org", text: "postmaster@gdgcatania.org"}
 
 
 # Speakers List Block
