@@ -1,5 +1,5 @@
 - 
-  group: "Friends"
+  group: ""
   elements: 
     - {name: "Beentouch", description: "Beentouch", link: "#", imageUrl: "Beentouch.png", width: "120px"}
     - {name: "Beepry", description: "Beepry", link: "#", imageUrl: "Beepry.png", width: "120px"}

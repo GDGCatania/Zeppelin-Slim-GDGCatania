@@ -99,7 +99,7 @@ layout: compress
                 ];
                 rockstarSpeakers.sort(function() {return 0.5 - Math.random()});
                 if(rockstarSpeakers.length > 0) {
-                    var animationDelay = 1500,
+                    var animationDelay = 1000,
                         count = Math.min({{ site.rockstarSpeakersCount }}, rockstarSpeakers.length),
                         colWidth = 12/count;
                     for(i=0; i<count; i++) {
