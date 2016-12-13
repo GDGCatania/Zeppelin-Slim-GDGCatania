@@ -62,6 +62,14 @@ aboutBlock:
  - {title: "Publishing", image: "iconMegafono.png", text: "----" }
  - {title: "Learning", image: "iconBrain.png", text: "I GDG nascono con lo scopo di aumentare il livello delle competenze di sviluppatori e designer in merito alle tecnologie e metodologie Google." }
 
+# Follow us Block
+followusTitle: "Follow us"
+followusBlockImage: "social-bg.jpg"
+followusItems:
+  - {name: "Facebook", image: "facebook.png", link: "https://facebook.com/gdgcatania"}
+  - {name: "Telegram", image: "telegram.png", link: "https://telegram.me/joinchat/BaFZOD-uNCm1Xd3usSxeuA"}
+  - {name: "Forum", image: "NodeBB.png", link: "http://forum.gdgcatania.org"}
+
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
