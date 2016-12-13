@@ -55,12 +55,12 @@ heroButtons:
 # About Block
 aboutTitle: "Cosa si fa in un GDG?"
 aboutBlock:
- - {title: "Networking", image: "networking.jpg", text: "Si comunica sia durante gli eventi, ma non solo, sulle tecnologie e metodologie Google." }
- - {title: "Conferenze", image: "speaking.png", text: "----" }
- - {title: "Competizioni", image: "competizione.png", text: "----" }
- - {title: "Garage", image: "learn.png", text: "----" }
- - {title: "Publishing", image: "publishing.png", text: "----" }
- - {title: "Learning", image: "workshop.jpg", text: "I GDG nascono con lo scopo di aumentare il livello delle competenze di sviluppatori e designer in merito alle tecnologie e metodologie Google." }
+ - {title: "Networking", image: "iconJoin.png", text: "Si comunica sia durante gli eventi, ma non solo, sulle tecnologie e metodologie Google." }
+ - {title: "Conferenze", image: "iconIdea.png", text: "----" }
+ - {title: "Competizioni", image: "iconCode.png", text: "----" }
+ - {title: "Garage", image: "iconTrainingGarage.png", text: "----" }
+ - {title: "Publishing", image: "iconMegafono.png", text: "----" }
+ - {title: "Learning", image: "iconBrain.png", text: "I GDG nascono con lo scopo di aumentare il livello delle competenze di sviluppatori e designer in merito alle tecnologie e metodologie Google." }
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
@@ -113,8 +113,6 @@ footerBlocks:
   title: "Contatti"
   links:
    - {link: "mailto:main@gdgcatania.org", text: "main@gdgcatania.org"}
-   - {link: "postmaster@gdgcatania.org", text: "postmaster@gdgcatania.org"}
-
 
 # Speakers List Block
 showSessions: true
