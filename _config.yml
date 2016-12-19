@@ -55,13 +55,13 @@ heroButtons:
 # About Block
 aboutTitle: "Cosa si fa in un GDG?"
 aboutBlock:
- - {title: "Networking", image: "iconJoin.png", text: "Si comunica sia durante gli eventi, ma non solo, sulle tecnologie e metodologie Google." }
- - {title: "Conferenze", image: "iconIdea.png", text: "----" }
- - {title: "Competizioni", image: "iconCode.png", text: "----" }
- - {title: "Garage", image: "iconTrainingGarage.png", text: "----" }
- - {title: "Publishing", image: "iconMegafono.png", text: "----" }
- - {title: "Learning", image: "iconBrain.png", text: "I GDG nascono con lo scopo di aumentare il livello delle competenze di sviluppatori e designer in merito alle tecnologie e metodologie Google." }
-
+ - {title: "Share", image: "iconIdea.png", text: "----" }
+ - {title: "Learn", image: "iconBrain.png", text: "----" }
+ - {title: "Build", image: "iconCode.png", text: "----" }
+ - {title: "Connect", image: "iconJoin.png", text: "----" }
+ - {title: "Have Fun", image: "iconHello.png", text: "----" }
+ - {title: "Be Googlish", image: "iconG.png", text: "----" }
+ 
 # Follow us Block
 followusTitle: "Follow us"
 followusBlockImage: "social-bg.jpg"
@@ -95,10 +95,7 @@ venueSmallImage3: "venue_3.jpg"
 venueSmallImage4: "venue_4.jpg"
 
 # Partners Block
-organizersTitle: "Organizers"
 partnersTitle: "Partners"
-partnersC4sponsorsButton: "Become a sponsor"
-
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
 subscribeTitle: "Iscriviti per restare aggiornato!"
@@ -109,6 +106,7 @@ subscribeInfo: "Join us!"
 socialLinks:
  - {link: "https://facebook.com/gdgcatania/", icon: "facebook"}
  - {link: "https://plus.google.com/118102220008611585984", icon: "google-plus"}
+ - {link: "https://www.youtube.com/channel/UCetkWXxUNcJ8T4eLC9FJ5Cw", icon: "youtube"}
  - {link: "https://twitter.com/gdgcatania", icon: "twitter"}
 footerBlocks:
  -
