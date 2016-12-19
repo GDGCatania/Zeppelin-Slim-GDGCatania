@@ -39,12 +39,6 @@
                 logo.removeClass('logo-dark').addClass('logo-light');
             }
 
-            if (scroll >= $('.top-section').height() && $(window).width() > 767) {
-                buyButton.removeClass('right-nav-button-hidden');
-            } else if (scroll < $('.top-section').height() && $(window).width() > 767){
-                buyButton.addClass('right-nav-button-hidden');
-            }
-
             $('.slot').each(function() {
                 var currentPosition = $(this).offset().top - scroll;
                 var offsetActivator = topOffset + $(this).find('.slot-title').height();
@@ -103,7 +97,7 @@
             if(window.location.href.indexOf("schedule") > -1 && window.location.hash) {
                 var hash = window.location.hash;
                 $(hash).click();
-            } 
+            }
         });
 
         $(function() {
@@ -483,7 +477,7 @@
                 setDirectionInput(origin);
                 $('#find-way h3').removeClass('fadeInUp').addClass('fadeOutDown');
             }
-            
+
             function calcRouteFromMyLocation() {
                 if (navigator.geolocation) {
                     navigator.geolocation.getCurrentPosition(function(position) {
