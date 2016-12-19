@@ -1,17 +1,30 @@
 - 
-  group: ""
-  elements: 
+  group: "Aziende"
+  elements:
+    - {name: "TIMWCAP", description: "TIMWCAP", link: "#", imageUrl: "TIMWCAP.png", width: "122px"}
     - {name: "Codemotion", description: "Codemotion", link: "#", imageUrl: "Codemotion.png", width: "200px"}
-    - {name: "YHC", description: "YHC", link: "#", imageUrl: "YHC.png", width: "200px"}
-    - {name: "clic", description: "clic", link: "#", imageUrl: "clic.gif", width: "200px"}
-    - {name: "CoderDojo", description: "CoderDojo", link: "#", imageUrl: "CoderDojo.jpg", width: "150px"}
-    - {name: "HackSpace", description: "HackSpace", link: "#", imageUrl: "HackSpace.jpeg", width: "120px"}
-    - {name: "MicrosoftMSP", description: "MicrosoftMSP", link: "#", imageUrl: "MicrosoftMSP.jpeg", width: "120px"}
-    - {name: "Paradigma", description: "Paradigma", link: "#", imageUrl: "Paradigma.png", width: "120px"}
-    - {name: "Parksmart", description: "Parksmart", link: "#", imageUrl: "Parksmart.png", width: "120px"}
-    - {name: "Scirocco", description: "Scirocco", link: "#", imageUrl: "Scirocco.jpg", width: "200px"}
-    - {name: "TIMWCAP", description: "TIMWCAP", link: "#", imageUrl: "TIMWCAP.png", width: "120px"}
+    - {name: "Scirocco", description: "Scirocco", link: "#", imageUrl: "Scirocco.jpg", width: "250px"}
     - {name: "Vulcanic", description: "Vulcanic", link: "#", imageUrl: "Vulcanic.png", width: "120px"}
-    - {name: "BigData4You", description: "BigData4You", link: "#", imageUrl: "BigData4You.png", width: "80px"}
-    - {name: "ArchimedeCatania", description: "ArchimedeCatania", link: "#", imageUrl: "ArchimedeCatania.png", width: "120px"}
+    - {name: "Paradigma", description: "Paradigma", link: "#", imageUrl: "Paradigma.png", width: "120px"}
+    
+   
+- 
+  group: "Associazioni"
+  elements: 
+    - {name: "YHC", description: "YHC", link: "#", imageUrl: "YHC.png", width: "200px"}
+    - {name: "Palestra", description: "Palestra", link: "#", imageUrl: "Palestra.png", width: "200px"}
+    - {name: "HackSpace", description: "HackSpace", link: "#", imageUrl: "HackSpace.jpeg", width: "115px"}
+
+- 
+  group: "Istruzione"
+  elements: 
+    - {name: "clic", description: "clic", link: "#", imageUrl: "clic.gif", width: "200px"}
+    - {name: "ArchimedeCatania", description: "ArchimedeCatania", link: "#", imageUrl: "ArchimedeCatania.png", width: "115px"}
     - {name: "FermiGuttuso", description: "FermiGuttuso", link: "#", imageUrl: "FermiGuttuso.jpg", width: "120px"}
+
+- 
+  group: "Community"
+  elements: 
+    - {name: "CoderDojo", description: "CoderDojo", link: "#", imageUrl: "CoderDojo.jpg", width: "150px"}
+    - {name: "BigData4You", description: "BigData4You", link: "#", imageUrl: "BigData4You.png", width: "100px"}
+    - {name: "MicrosoftMSP", description: "MicrosoftMSP", link: "#", imageUrl: "MicrosoftMSP.jpeg", width: "120px"}

@@ -59,7 +59,7 @@ aboutBlock:
  - {title: "Learn", image: "iconBrain.png", text: "----" }
  - {title: "Build", image: "iconCode.png", text: "----" }
  - {title: "Connect", image: "iconJoin.png", text: "----" }
- - {title: "Have Fun", image: "iconSocial.png", text: "----" }
+ - {title: "Have Fun", image: "iconHello.png", text: "----" }
  - {title: "Be Googlish", image: "iconG.png", text: "----" }
  
 # Follow us Block
@@ -95,9 +95,7 @@ venueSmallImage3: "venue_3.jpg"
 venueSmallImage4: "venue_4.jpg"
 
 # Partners Block
-organizersTitle: "Organizers"
 partnersTitle: "Partners"
-
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
 subscribeTitle: "Iscriviti per restare aggiornato!"
