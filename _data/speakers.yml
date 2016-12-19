@@ -1,4 +1,4 @@
-- 
+-
   id: 1
   name: "Fabio "
   surname: "Arceri"
@@ -7,9 +7,11 @@
   bio: "Bio Fabio"
   thumbnailUrl: FabioArceri.png
   rockstar: true
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/+FabioArceri"}
-- 
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/fabioarceri/" , icon: "icon-linkedin"}
+    - {name: "googleplus", link: "https://plus.google.com/+FabioArceri" , icon: "icon-google-plus"}
+    - {name: "facebook", link: "https://www.facebook.com/nicolofabio.arceri" , icon: "icon-facebook"}
+-
   id: 2
   name: "Federica"
   surname: "Greco"
@@ -18,5 +20,7 @@
   bio: "Bio Federica "
   thumbnailUrl: FedericaGreco.jpg
   rockstar: true
-  social: 
-    - {name: "google-plus", link: "https://plus.google.com/100496822856933567305"}
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/federica-greco/" , icon: "icon-linkedin"}
+    - {name: "googleplus", link: "https://plus.google.com/100496822856933567305" , icon: "icon-google-plus"}
+    - {name: "facebook", link: "https://www.facebook.com/federica.sr" , icon: "icon-facebook"}

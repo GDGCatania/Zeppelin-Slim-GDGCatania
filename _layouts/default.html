@@ -61,24 +61,42 @@ layout: compress
                         });
                     }
                 });
+
                 var rockstarSpeakers = [
                     {% for speaker in site.data.speakers %}
                         {% if speaker.rockstar %}
-                        {name: "{{ speaker.name }} {{ speaker.surname }}", company: "{{ speaker.company }}", image: "{{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
+                        { name: "{{ speaker.name }} {{ speaker.surname }}",
+                          company: "{{ speaker.company }}",
+                          image: "{{ site.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }}",
+                          social: [
+                            {% for social in speaker.social %}
+                              {name: "{{ social.name }}", link: "{{ social.link }}", icon: "{{ social.icon }}"} {% if forloop.index != forloop.length %},{% endif %}
+                            {% endfor %}
+                            ]
+                        }
+                        {% if forloop.index != forloop.length %},{% endif %}
                         {% endif %}
                     {% endfor %}
                 ];
-                rockstarSpeakers.sort(function() {return 0.5 - Math.random()});
+
+                rockstarSpeakers.sort(function() { return 0.5 - Math.random() } );
+
                 if(rockstarSpeakers.length > 0) {
                     var animationDelay = 1000,
                         count = Math.min({{ site.rockstarSpeakersCount }}, rockstarSpeakers.length),
                         colWidth = 12/count;
                     for(i=0; i<count; i++) {
                         var clearfix = '<div class="clearfix visible-xs"></div>';
-                        if ((i)%2 != 0) {
-                            clearfix = ""
-                        }
-                        $('#rockstar-speaker-title').after('<div class="col-md-'+ colWidth +' col-xs-6 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="rockstar-speaker"><div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + rockstarSpeakers[i].image + ')"></div><div class="name">' + rockstarSpeakers[i].name + '</div><div class="sub">' + rockstarSpeakers[i].company + '</div></div></div>' + clearfix);
+                        var social = "<ul class='social-links'  style='padding-left:10px;'>";
+
+                        for(j=0; j<rockstarSpeakers[i].social.length; j++)
+                          social = social + "<li> <a href=' " + rockstarSpeakers[i].social[j].link + " '> <svg class='icon '" + rockstarSpeakers[i].social[j].icon + " viewBox='0 0 30 32'> <use xlink:href='{{ site.baseurl }}/img/sprites/sprites.svg#" + rockstarSpeakers[i].social[j].icon + "'></use> </svg> </a> </li>" ;
+
+                        social = social + "</ul>";
+
+                        if ((i)%2 != 0) clearfix = "";
+
+                        $('#rockstar-speaker-title').after('<div class="col-md-'+ colWidth +' col-xs-6 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="rockstar-speaker"><div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + rockstarSpeakers[i].image + ')"></div><div class="name">' + rockstarSpeakers[i].name + '</div><div class="sub">' + rockstarSpeakers[i].company + social + '</div></div></div>' + clearfix);
                         animationDelay -= 500;
                     }
                 }
