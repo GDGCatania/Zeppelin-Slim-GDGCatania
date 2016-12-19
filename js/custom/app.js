@@ -4,7 +4,9 @@ var myApp = angular.module('myApp', []).config(function($interpolateProvider){
 
 myApp.filter('html', ['$sce', function ($sce) {
     return function (text) {
-        return $sce.trustAsHtml(urlify(text.replace(/<br\s*[\/]?>/gi, '\b\n').replace('•','')));
+        return $sce.trustAsHtml(urlify(text .replace(/<br\s*[\/]?>/gi, "\b&nbsp;")
+                                            .replace(/(<([^>]+)>)/ig, "")
+                                            .replace('•',"")));
     };
 }])
 
@@ -21,6 +23,8 @@ myApp.config(['$qProvider', function ($qProvider) {
 
 myApp.controller('eventsController', function($scope, $http){
 
+  $scope["eventi"] = null;
+
   $scope.colorsRnd = [
                        "#E91E63",
                        "#3F51B5",
@@ -32,10 +36,16 @@ myApp.controller('eventsController', function($scope, $http){
                      ];
 
   var url = "https://hub.gdgx.io/api/v1/chapters/118102220008611585984/events?page=1&perpage=6&sort=start&asc=-1";
-  $.ajax({url: url, type: "GET", dataType: "jsonp", async: false, success: function(result){
+  $.ajax({url: url, type: "GET", dataType: "jsonp", async: true,
+  success: function(result){
       $scope["eventi"] = result;
       $scope.$digest();
+  },
+  error: function(error){
+      //console.log(error);
   }});
+
+
 
 
 });

@@ -1,5 +1,5 @@
 <!-- Begin Latest News Section -->
-<section id="events" class="events">
+<section id="events" class="events" ng-show="eventi">
 	<div class="content-wrapper" ng-controller="eventsController">
 		<div class="col-lg-10 col-lg-offset-1">
 
@@ -7,10 +7,13 @@
 			<div class="schedule-table">
 				<div  ng-repeat="evento in eventi.items track by $index" ng-init="i = $index" class="slot col-md-4 col-xs-12 flexbox-item-height">
 						<div class="color-line" ng-style="{background: colorsRnd[$index % colorsRnd.length]}"></div>
+						<!--<div class="slot-content" ng-style="{border-right-color: colorsRnd[$index % colorsRnd.length]}">-->
 						<div class="slot-content">
 								<h6 class="track-header-title">{[{ evento.start | date : "longDate"  }]} <small class="text-primary" ng-repeat="tag in evento.tags track by $index"> {[{ tag }]} </small></h6>
 								<h5 class="slot-title" itemprop="name">{[{ evento.title }]}</h5>
 								<br><p class="slot-speakers" ng-bind-html="evento.about | html"></p>
+								<a href="https://developers.google.com/events/{[{ evento._id }]}"><h7 class="text-primary">Read more...</h7></a>
+								<br>
 								<h8>{[{ evento.location }]}</h8>
 						</div>
 				</div>
