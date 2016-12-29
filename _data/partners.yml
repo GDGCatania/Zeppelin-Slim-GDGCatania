@@ -19,7 +19,9 @@
   group: "Istruzione"
   elements: 
     - {name: "clic", description: "clic", link: "#", imageUrl: "clic.gif", width: "200px"}
+    - {name: "dieei", description: "dieei", link: "#", imageUrl: "dieei.png", width: "170px"}
     - {name: "ArchimedeCatania", description: "ArchimedeCatania", link: "#", imageUrl: "ArchimedeCatania.png", width: "115px"}
+    - {name: "Vaccarini", description: "Vaccarini", link: "#", imageUrl: "Vaccarini.jpg", width: "135px"}
     - {name: "FermiGuttuso", description: "FermiGuttuso", link: "#", imageUrl: "FermiGuttuso.jpg", width: "120px"}
 
 - 
