@@ -5,6 +5,7 @@
     - {name: "Codemotion", description: "Codemotion", link: "#", imageUrl: "Codemotion.png", width: "200px"}
     - {name: "Scirocco", description: "Scirocco", link: "#", imageUrl: "Scirocco.jpg", width: "250px"}
     - {name: "Vulcanic", description: "Vulcanic", link: "#", imageUrl: "Vulcanic.png", width: "120px"}
+    - {name: "Lazarus", description: "Lazarus", link: "#", imageUrl: "Lazarus.png", width: "130px"}
     - {name: "Paradigma", description: "Paradigma", link: "#", imageUrl: "Paradigma.png", width: "120px"}
     
    
@@ -23,7 +24,7 @@
     - {name: "ArchimedeCatania", description: "ArchimedeCatania", link: "#", imageUrl: "ArchimedeCatania.png", width: "115px"}
     - {name: "Vaccarini", description: "Vaccarini", link: "#", imageUrl: "Vaccarini.jpg", width: "135px"}
     - {name: "FermiGuttuso", description: "FermiGuttuso", link: "#", imageUrl: "FermiGuttuso.jpg", width: "120px"}
-
+    
 - 
   group: "Community"
   elements: 
