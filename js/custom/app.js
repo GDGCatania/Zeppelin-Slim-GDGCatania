@@ -4,9 +4,12 @@ var myApp = angular.module('myApp', []).config(function($interpolateProvider){
 
 myApp.filter('html', ['$sce', function ($sce) {
     return function (text) {
+        if(text.length > 250) text = text.substring(0, 250) + "..." ;
+
         return $sce.trustAsHtml(urlify(text .replace(/<br\s*[\/]?>/gi, "\b&nbsp;")
                                             .replace(/(<([^>]+)>)/ig, "")
-                                            .replace('•',"")));
+                                            .replace('•',"")
+                                            ));
     };
 }])
 
