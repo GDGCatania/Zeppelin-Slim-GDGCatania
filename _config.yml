@@ -60,7 +60,6 @@ aboutBlock:
  - {title: "Build", image: "iconCode.png", text: "----" }
  - {title: "Connect", image: "iconJoin.png", text: "----" }
  - {title: "Have Fun", image: "iconHello.png", text: "----" }
- - {title: "Be Googlish", image: "iconG.png", text: "----" }
 
 # Follow us Block
 followusTitle: "Follow us"
