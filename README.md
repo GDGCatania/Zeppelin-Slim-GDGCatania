@@ -11,7 +11,7 @@ The Slim Version of Project Zeppelin is a SINGLE page edited for GDGCatania. The
 
 An idea of [pietrobiondi](https://github.com/pietrobiondi)  and [Tkd-Alex](https://github.com/Tkd-Alex)  for [GDGCatania](https://github.com/GDGCatania)  .
 
-Live demo ~~http://www.gdgcatania.org/~~
+#### Live demo http://www.gdgcatania.org/
 
 ------
 
