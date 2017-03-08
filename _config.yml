@@ -73,7 +73,7 @@ followusItems:
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
- - {count: "1133", specialCharacter: "+", info: "Partecipanti", detail: "da tutta Italia"}
+ - {count: "1226", specialCharacter: "+", info: "Partecipanti", detail: "da tutta Italia"}
  - {count: "350", specialCharacter: "+", info: "Membri", detail: " attivi negli ultimi 6 mesi "}
  - {count: "25", specialCharacter: "+", info: "Eventi", detail: "organizzati negli ultimi 6 mesi"}
 
