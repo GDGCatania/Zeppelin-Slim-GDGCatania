@@ -29,11 +29,13 @@ Template is brought by [GDG Lviv](http://lviv.gdg.org.ua/) team.
 Check if you have [all requirements for local environment](http://jekyllrb.com/docs/installation/).
 To install all development dependencies install [Bundler](http://bundler.io/).
 ```bash
+    sudo apt install ruby-dev
     gem install bundler
 ```
 and run next command from root folder:
 
 ```bash
+  sudo gem install json -v '1.8.6'
   bundle install
 ```  
 
