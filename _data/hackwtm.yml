@@ -1,20 +1,20 @@
 - 
   name: "4F1F"
-  url: "http://gdgcatania.org/wtmhack/4f1f/ProgettoHTML.html"
+  url: "wtmhack/4f1f/ProgettoHTML.html"
   desc: ""
-  image: "../img/hackwtm/img1.JPG"
+  image: "hackwtm/img1.JPG"
 - 
   name: "MAC"
-  url: "http://gdgcatania.org/wtmhack/mac/diario.html"
+  url: "wtmhack/mac/diario.html"
   desc: ""
-  image: "../img/hackwtm/img2.JPG"
+  image: "hackwtm/img2.JPG"
 - 
   name: "Freedom"
-  url: "http://gdgcatania.org/wtmhack/freedom/freedom.html"
+  url: "wtmhack/freedom/freedom.html"
   desc: ""
-  image: "../img/hackwtm/img3.JPG"
+  image: "hackwtm/img3.JPG"
 - 
   name: "Young Women"
-  url: "http://gdgcatania.org/wtmhack/yw/sito.html"
+  url: "wtmhack/yw/sito.html"
   desc: ""
-  image: "../img/hackwtm/img4.JPG"
+  image: "hackwtm/img4.JPG"

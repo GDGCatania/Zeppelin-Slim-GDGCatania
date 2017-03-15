@@ -20,9 +20,9 @@
             </div>-->
 
             <div class="col-md-3 col-sm-12" style="display:block; padding-left: 2%; padding-right: 2%; margin-bottom:2%; margin-top: 2%; float:left;">
-                <a href="{{group.url}}" target="_blank">
+                <a href="{{ site.baseurl }}/../{{group.url}}" target="_blank">
                     <div style="background-color:white; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-                        <img src="{{ group.image }}" style="max-width: 100%; height: auto; "/><br/>
+                        <img src="{{ site.baseurl }}/img/{{ group.image }}" style="max-width: 100%; height: auto; "/><br/>
                         <p style="font-size: 20px; padding-top: 10px; padding-bottom:10px;">{{ group.name }}</p>
                     </div>
                 </a>
