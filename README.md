@@ -3,7 +3,7 @@
 ### About Slim Version
 The Slim Version of Project Zeppelin is a SINGLE page edited for GDGCatania. The website contains all information that we need in a small version.
 
-###Feature
+### Feature
 + Added a box for show the last events. This feature use [Angular](https://github.com/angular/angular) and [GDGx Hub Api](https://github.com/gdg-x/hub) customizable by *js/custom/app.js*.
 + Added social box (follow us) customizable by *_config.yml*.
 + Added social icon on the Speaker's footer customizable by *data/_speakers.yml*.
