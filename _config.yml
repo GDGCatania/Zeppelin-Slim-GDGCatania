@@ -12,7 +12,7 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 title: "Google Developer Group Catania"
 email: "main@gdgcatania.org"
 description: "GDG Catania community"
-baseurl: "/gdgcatania"
+baseurl: "/gdg2017"
 url: "https://gdg-x.github.io"
 permalink: "/blog/:title"
 googleAnalyticsTrackingId: "UA-43643469-5"
