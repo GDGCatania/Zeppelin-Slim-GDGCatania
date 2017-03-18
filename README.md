@@ -30,7 +30,7 @@ Check if you have [all requirements for local environment](http://jekyllrb.com/d
 To install all development dependencies install [Bundler](http://bundler.io/).
 ```bash
     sudo apt install ruby-dev
-    gem install bundler
+    sudo gem install bundler
 ```
 and run next command from root folder:
 
