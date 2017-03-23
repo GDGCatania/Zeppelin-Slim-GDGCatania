@@ -30,5 +30,6 @@
   elements: 
     - {name: "CoderDojo", description: "CoderDojo", link: "#", imageUrl: "CoderDojo.jpg", width: "150px"}
     - {name: "BigData4You", description: "BigData4You", link: "#", imageUrl: "BigData4You.png", width: "90px"}
-    - {name: "pac", description: "pac", link: "#", imageUrl: "pac.png", width: "120px"}
+    - {name: "GBG", description: "GBG", link: "#", imageUrl: "GBG.png", width: "125px"}
+    - {name: "pac", description: "pac", link: "#", imageUrl: "pac.png", width: "125px"}
     - {name: "MicrosoftMSP", description: "MicrosoftMSP", link: "#", imageUrl: "MicrosoftMSP.jpeg", width: "120px"}
