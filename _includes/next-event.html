@@ -1,0 +1,37 @@
+<!-- Begin next-event Section -->
+<section id="next-event" class="next-event" >
+    <div class="content-wrapper row">
+        <h3 style="margin-bottom:0px;">{{ site.nextEventTitle }}</h3>
+        <div class="col-md-9" data-animation="fadeInUp" data-delay="0">
+            <img src="{{ site.baseurl }}/img/sections-background/{{ site.nextEventImage }}" class="img-fluid" width="100%" height="100%" alt="Responsive image">
+            {% for item in site.nextEventItems %}
+			{% assign colWidth = 12 | divided_by: forloop.length %}
+			<div class="col-md-{{ colWidth }} col-xs-6 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="700">
+				<div class="rockstar-speakers">
+					<a href="{{ item.link }}">
+						<div class="flow-img img-circle rockstar-speaker-img" style="background-image: url({{ site.baseurl }}/img/social/{{ item.image }});">
+						</div>
+					</a>
+					<div class="name"> {{ item.name }} </div>
+				</div>
+			</div>
+			{% endfor %}
+        </div>
+        <div class="col-md-3" data-animation="fadeInUp" data-delay="0">
+            <button class="btn btn-primary" id="moreInformation" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            More information
+            </button>
+            <p id="collapseExample" class="collapse">Come ogni anno, Mountain View e il mondo intero si preparano all'evento più atteso da ogni sviluppatore che si rispetti, la GOOGLE I/O EXTENDED.    
+                <br>
+                In tutto il globo, ed in simultanea, hackathon, codelab, demo e tanto altro intratterranno e coinvolgeranno milioni di appassionati. 
+                <br>
+                Il GDG Catania è quindi lieto di annunciarvi che anche noi, ospitati dal Dipartimento di Matematica e Informatica, Vi aspettiamo il 17-18-19 maggio per regalarvi un'esperienza all'insegna dell'apprendimento e della condivisione. 
+                <br>
+                Tre giorni da trascorrere tra development, design, workshop, comunicazione digitale, sandbox, hackathon ma sempre accompagnati da un clima caratterizzato da sorrisi e tanta allegria. 
+                <br>
+                Quindi... stay GOOGLE, stay I/O
+            </p>
+        </div>
+    </div> 
+</section>
+<!-- End next-event Section -->

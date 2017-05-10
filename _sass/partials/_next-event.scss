@@ -1,0 +1,24 @@
+#moreInformation{
+    display: inline;
+    margin-top: 20px;
+
+}
+
+#collapseExample{
+   padding: 25px 20px 0px 20px;
+}
+
+
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:984px) {
+    #moreInformation{
+        display: none;
+    }
+    #collapseExample{
+        visibility: visible;
+        display: block;
+        text-align: left;
+        padding: 25px 10px 0px 0px;
+    }
+}
