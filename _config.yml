@@ -96,11 +96,20 @@ venueSmallImage4: "venue_4.jpg"
 
 # Partners Block
 partnersTitle: "Partners"
+
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
 subscribeTitle: "Iscriviti per restare aggiornato!"
 subscribeAction: "https://gdgcatania.us-50.list-manage.com/subscribe/post?u=fb72f52c09a716847b7389a39&id=f723af0519"
 subscribeInfo: "Join us!"
+
+# Next Event Block
+nextEventTitle: "What's next"
+nextEventImage: "next-event2.jpg"
+nextEventItems:
+  - {name: "Evento Facebook", image: "facebook.png", link: "https://www.facebook.com/events/1487361917994456/"}
+  - {name: "Eventbrite", image: "eventbritew.png", link: "https://www.eventbrite.it/e/biglietti-io-extended-2017-catania-33672978786"}
+
 
 # Footer
 socialLinks:
