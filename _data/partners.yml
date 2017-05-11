@@ -14,6 +14,7 @@
   elements: 
     - {name: "YHC", description: "YHC", link: "#", imageUrl: "YHC.png", width: "200px"}
     - {name: "Palestra", description: "Palestra", link: "#", imageUrl: "Palestra.png", width: "200px"}
+    - {name: "eludolab", description: "eludolab", link: "#", imageUrl: "eludolab.png", width: "200px"}
     - {name: "HackSpace", description: "HackSpace", link: "#", imageUrl: "HackSpace.jpeg", width: "115px"}
 
 - 
