@@ -2,11 +2,11 @@
 <section id="next-event" class="next-event" >
     <div class="content-wrapper row">
         <h3 style="margin-bottom:0px;">{{ site.nextEventTitle }}</h3>
-        <div class="col-md-9" data-animation="fadeInUp" data-delay="0">
+        <div class="col-md-9 col-sm-12" data-animation="fadeInUp" data-delay="0">
             <img src="{{ site.baseurl }}/img/sections-background/{{ site.nextEventImage }}" class="img-fluid" width="100%" height="100%" alt="Responsive image">
             {% for item in site.nextEventItems %}
 			{% assign colWidth = 12 | divided_by: forloop.length %}
-			<div class="col-md-{{ colWidth }} col-xs-6 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="700">
+			<div class="col-md-{{ colWidth }} col-xs-6 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="0">
 				<div class="rockstar-speakers">
 					<a href="{{ item.link }}">
 						<div class="flow-img img-circle rockstar-speaker-img" style="background-image: url({{ site.baseurl }}/img/social/{{ item.image }});">
@@ -17,7 +17,7 @@
 			</div>
 			{% endfor %}
         </div>
-        <div class="col-md-3" data-animation="fadeInUp" data-delay="0">
+        <div class="col-md-3 col-sm-12" data-animation="fadeInUp" data-delay="0">
             <button class="btn btn-primary" id="moreInformation" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
             More information
             </button>
