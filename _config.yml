@@ -105,10 +105,10 @@ subscribeInfo: "Join us!"
 
 # Next Event Block
 nextEventTitle: "What's next"
-nextEventImage: "next-event2.jpg"
-nextEventItems:
-  - {name: "Evento Facebook", image: "facebook.png", link: "https://www.facebook.com/events/1487361917994456/"}
-  - {name: "Eventbrite", image: "eventbritew.png", link: "https://www.eventbrite.it/e/biglietti-io-extended-2017-catania-33672978786"}
+nextEventImage: "next-event.jpg"
+#nextEventItems:
+#  - {name: "Evento Facebook", image: "facebook.png", link: "https://www.facebook.com/events/1487361917994456/"}
+#  - {name: "Eventbrite", image: "eventbritew.png", link: "https://www.eventbrite.it/e/biglietti-io-extended-2017-catania-33672978786"}
 
 
 # Footer
