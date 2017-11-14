@@ -82,7 +82,7 @@ latestNewsTitle: "Cos'è un Google Developer Group?"
 
 # StaffGDG
 rockstarSpeakersImage: "rockstar-speakers.jpg"
-rockstarSpeakersCount: 3
+rockstarSpeakersCount: 6
 rockstarSpeakersTitle: "Main GDG Catania"
 rockstarSpeakersButtonText: ""
 
@@ -106,9 +106,9 @@ subscribeInfo: "Join us!"
 # Next Event Block
 nextEventTitle: "What's next"
 nextEventImage: "next-event.jpg"
-#nextEventItems:
-#  - {name: "Evento Facebook", image: "facebook.png", link: "https://www.facebook.com/events/1487361917994456/"}
-#  - {name: "Eventbrite", image: "eventbritew.png", link: "https://www.eventbrite.it/e/biglietti-io-extended-2017-catania-33672978786"}
+nextEventItems:
+- {name: "Evento Facebook", image: "facebook.png", link: "https://www.facebook.com/events/511846149196052"}
+- {name: "Eventbrite", image: "eventbritew.png", link: "https://www.eventbrite.it/e/biglietti-gdg-devfest-mediterranean-2017-cap-2-38979541859"}
 
 
 # Footer
