@@ -3,7 +3,7 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="it">
 
 {% include head.html %}
 
@@ -83,7 +83,7 @@ layout: compress
                 rockstarSpeakers.sort(function() { return 0.5 - Math.random() } );
 
                 if(rockstarSpeakers.length > 0) {
-                    var animationDelay = 1000,
+                    var animationDelay = 300,
                         count = Math.min({{ site.rockstarSpeakersCount }}, rockstarSpeakers.length),
                         colWidth = 12/count;
                     for(i=0; i<count; i++) {
@@ -98,7 +98,7 @@ layout: compress
                         if ((i)%2 != 0) clearfix = "";
 
                         $('#rockstar-speaker-title').after('<div class="col-md-'+ colWidth +' col-xs-6 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><div class="rockstar-speaker"><div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + rockstarSpeakers[i].image + ')"></div><div class="name">' + rockstarSpeakers[i].name + '</div><div class="sub">' + rockstarSpeakers[i].company + social + '</div></div></div>' + clearfix);
-                        animationDelay -= 500;
+                        animationDelay -= 150;
                     }
                 }
             });

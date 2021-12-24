@@ -5,38 +5,32 @@
   company: "GDG Catania Lead"
   title: "Developer Relations Program Manager"
   bio: "Bio Fabio"
-  thumbnailUrl: fabio.jpg
+  thumbnailUrl: "fabio.jpg"
   rockstar: true
   social:
     - {name: "linkedin", link: "https://www.linkedin.com/in/fabioarceri/" , icon: "icon-linkedin"}
-    - {name: "googleplus", link: "https://plus.google.com/+FabioArceri" , icon: "icon-google-plus"}
-    - {name: "facebook", link: "https://www.facebook.com/nicolofabio.arceri" , icon: "icon-facebook"}
 -
   id: 2
-  name: "Michele "
-  surname: "Bontorno"
+  name: "Dario "
+  surname: "Camonita"
   company: "GDG Catania Lead"
   title: "Developer Relations Program Manager"
-  bio: "Bio Michele"
-  thumbnailUrl: michele.jpg
+  bio: "Bio Dario"
+  thumbnailUrl: dario.jpeg
   rockstar: true
   social:
-    - {name: "linkedin", link: "https://www.linkedin.com/in/michelebontorno/" , icon: "icon-linkedin"}
-    - {name: "googleplus", link: "https://plus.google.com/+MicheleBontorno" , icon: "icon-google-plus"}
-    - {name: "facebook", link: "https://www.facebook.com/mikewellback" , icon: "icon-facebook"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/dario-camonita-74a887149" , icon: "icon-linkedin"}
 -
   id: 3
   name: "Gabriele "
-  surname: "Baldoni"
+  surname: "Messina"
   company: "GDG Catania Lead"
   title: "Developer Relations Program Manager"
   bio: "Bio Gabriele"
-  thumbnailUrl: gabriele.png
+  thumbnailUrl: gabriele.jpeg
   rockstar: true
   social:
-    - {name: "linkedin", link: "https://www.linkedin.com/in/gbaldoni/" , icon: "icon-linkedin"}
-    - {name: "googleplus", link: "https://plus.google.com/+FabioArceri" , icon: "icon-google-plus"}
-    - {name: "facebook", link: "https://www.facebook.com/gabriele.baldoni" , icon: "icon-facebook"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/messina-gabriele" , icon: "icon-linkedin"}
 -
   id: 4
   name: "Ambra "
@@ -48,31 +42,69 @@
   rockstar: true
   social:
     - {name: "linkedin", link: "https://www.linkedin.com/in/ambrabonaiuto/" , icon: "icon-linkedin"}
-    - {name: "googleplus", link: "https://plus.google.com/+AmbraBonaiuto" , icon: "icon-google-plus"}
-    - {name: "facebook", link: "https://www.facebook.com/abonaiuto" , icon: "icon-facebook"}
 -
   id: 5
-  name: "Luca "
-  surname: "Cavallaro"
+  name: "Lorenzo "
+  surname: "Catania"
   company: "GDG Catania Lead"
   title: "Developer Relations Program Manager"
-  bio: "Bio Luca"
-  thumbnailUrl: luca.jpg
+  bio: "Bio Lorenzo"
+  thumbnailUrl: lorenzo.jpg
   rockstar: true
   social:
-    - {name: "linkedin", link: "https://www.linkedin.com/in/lucacavallaro/" , icon: "icon-linkedin"}
-    - {name: "googleplus", link: "https://plus.google.com/+LucaCavallaro1" , icon: "icon-google-plus"}
-    - {name: "facebook", link: "https://www.facebook.com/profile.php?id=100008229348959" , icon: "icon-facebook"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/lorenzo-catania-aegroto/" , icon: "icon-linkedin"}
 -
   id: 6
-  name: "Alessandra "
-  surname: "Rigano"
-  company: "Women Techmakers Lead"
-  title: "WTM Lead"
-  bio: "Bio Alessadra"
-  thumbnailUrl: alessandra.jpg
+  name: "Raffaele "
+  surname: "Barone"
+  company: "GDG Catania Lead"
+  title: "Developer Relations Program Manager"
+  bio: "Bio Raffaele"
+  thumbnailUrl: raffaele.jpg
   rockstar: true
   social:
-    - {name: "linkedin", link: "https://www.linkedin.com/in/alessandrarigano/" , icon: "icon-linkedin"}
-    - {name: "googleplus", link: "https://plus.google.com/+AlessandraRigano" , icon: "icon-google-plus"}
-    - {name: "facebook", link: "https://www.facebook.com/lssndrgn" , icon: "icon-facebook"}
+    - {name: "linkedin", link: "https://www.linkedin.com/in/raffb/" , icon: "icon-linkedin"}
+-
+  id: 7
+  name: "Rosa "
+  surname: "Taormina"
+  company: "GDG Catania Lead"
+  title: "Developer Relations Program Manager"
+  bio: "Bio Rosa"
+  thumbnailUrl: rosa.jpeg
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/rosa-taormina/" , icon: "icon-linkedin"}
+-
+  id: 8
+  name: "Samuele "
+  surname: "Padalino"
+  company: "GDG Catania Lead"
+  title: "Developer Relations Program Manager"
+  bio: "Bio Samuele"
+  thumbnailUrl: samuele.jpg
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/r4ndomthunder/" , icon: "icon-linkedin"}
+-
+  id: 9
+  name: "Carmelo "
+  surname: "Ventimiglia"
+  company: "GDG Catania Lead"
+  title: "Developer Relations Program Manager"
+  bio: "Bio Carmelo"
+  thumbnailUrl: carmelo.jpg
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/carmelo-ventimiglia/" , icon: "icon-linkedin"}
+-
+  id: 10
+  name: "Michele "
+  surname: "Maresca"
+  company: "GDG Catania Lead"
+  title: "Developer Relations Program Manager"
+  bio: "Bio Michele"
+  thumbnailUrl: michele.jpg
+  rockstar: true
+  social:
+    - {name: "linkedin", link: "https://www.linkedin.com/in/miccelle/" , icon: "icon-linkedin"}
