@@ -7,7 +7,7 @@
 
 			{% for item in site.followusItems %}
 			{% assign colWidth = 12 | divided_by: forloop.length %}
-			<div class="col-md-{{ colWidth }} col-xs-6 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="700">
+			<div class="col-md-{{ colWidth }} col-xs-6 rockstar-speakers-item">
 				<div class="rockstar-speaker">
 					<a href="{{ item.link }}">
 						<div class="flow-img img-circle rockstar-speaker-img" style="background-image: url({{ site.baseurl }}/img/social/{{ item.image }});">
