@@ -14,7 +14,7 @@
 					<p class="small">{{ statistic.detail}}</p>
                 </div>
             </div>
-            {% assign animationDelay = animationDelay | plus:500 %}
+            <!-- {% assign animationDelay = animationDelay | plus:500 %} -->
             {% assign check = forloop.index | modulo:2 %}
             {% if check == 0 %} <div class="clearfix visible-xs"></div> {% endif %}
             {% endfor %}
