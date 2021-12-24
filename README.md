@@ -9,7 +9,9 @@ The Slim Version of Project Zeppelin is a SINGLE page edited for GDGCatania. The
 + Added social icon on the Speaker's footer customizable by *data/_speakers.yml*.
 + Added [particles.js](https://github.com/VincentGarreau/particles.js/) over the hero page.
 
-An idea of [pietrobiondi](https://github.com/pietrobiondi)  and [Tkd-Alex](https://github.com/Tkd-Alex)  for [GDGCatania](https://github.com/GDGCatania)  .
+An idea of [pietrobiondi](https://github.com/pietrobiondi)  and [Tkd-Alex](https://github.com/Tkd-Alex)  for [GDGCatania](https://github.com/GDGCatania).
+
+Maintainers: [Gabriele Messina](https://github.com/GabrieleMessina) and [Raffaele Barone](https://github.com/raffb).
 
 #### Live demo http://www.gdgcatania.org/
 
