@@ -67,14 +67,14 @@ followusTitle: "Follow us"
 followusBlockImage: "social-bg.jpg"
 followusItems:
   - {name: "Facebook", image: "facebook.png", link: "https://facebook.com/gdgcatania"}
-  - {name: "Telegram", image: "telegram.png", link: "https://telegram.me/joinchat/BaFZOD-uNCm1Xd3usSxeuA"}
-  - {name: "Forum", image: "NodeBB.png", link: "http://forum.gdgcatania.org"}
+  - {name: "Telegram", image: "telegram.png", link: "https://t.me/GDGCatania"}
+  # - {name: "Forum", image: "NodeBB.png", link: "http://forum.gdgcatania.org"}
 
 # Statistic Block
 statisticBlockImage: "statistic.jpg"
 statisticBlock:
  - {count: "1226", specialCharacter: "+", info: "Partecipanti", detail: "da tutta Italia"}
- - {count: "350", specialCharacter: "+", info: "Membri", detail: " attivi negli ultimi 6 mesi "}
+ - {count: "450", specialCharacter: "+", info: "Membri", detail: " attivi negli ultimi 6 mesi "}
  - {count: "25", specialCharacter: "+", info: "Eventi", detail: "organizzati negli ultimi 6 mesi"}
 
 # Latest News Block
@@ -100,8 +100,9 @@ partnersTitle: "Partners"
 # Subscribe Block
 subscribeImage: "subscribe.jpg"
 subscribeTitle: "Iscriviti per restare aggiornato!"
-subscribeAction: "https://gdgcatania.us-50.list-manage.com/subscribe/post?u=fb72f52c09a716847b7389a39&id=f723af0519"
-subscribeInfo: "Join us!"
+subscribeAction: "https://t.me/GDGCatania"
+# subscribeAction: "https://gdgcatania.us-50.list-manage.com/subscribe/post?u=fb72f52c09a716847b7389a39&id=f723af0519"
+#subscribeInfo: "Join us!"
 
 # Next Event Block
 nextEventTitle: "What's next"
@@ -114,15 +115,13 @@ nextEventItems:
 # Footer
 socialLinks:
  - {link: "https://facebook.com/gdgcatania/", icon: "facebook"}
- - {link: "https://plus.google.com/118102220008611585984", icon: "google-plus"}
- - {link: "https://www.youtube.com/channel/UCetkWXxUNcJ8T4eLC9FJ5Cw", icon: "youtube"}
  - {link: "https://twitter.com/gdgcatania", icon: "twitter"}
 footerBlocks:
  -
   title: "Links"
   links:
-   - {link: "https://developers.google.com/groups/chapter/118102220008611585984/", text: "GDG Catania"}
-   - {link: "https://developers.google.com", text: "Google Developers"}
+   - {link: "https://gdg.community.dev/gdg-catania/", text: "GDG Catania"}
+   - {link: "https://gdg.community.dev/", text: "Google Developers"}
    - {link: "https://www.womentechmakers.com/", text: "Women Techmakers"}
    - {link: "https://sites.google.com/wtmitalia.it/wtm/home", text: "Women Techmakers Italia"}
  -
